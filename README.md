@@ -2,12 +2,10 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
+* [Usage](#usage)
 
-## Instructions
+## Usage
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+Click on the navbar sections in order to scroll to the correct place on the page. Each section will highlight as you scroll it into view. 
 
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+This project has no dependencies at this time. 
