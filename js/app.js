@@ -13,12 +13,6 @@
  * 
 */
 
-/**
- * Comments should be present at the beginning of each procedure and class.
- * Great to have comments before crucial code sections within the procedure.
-*/
-
-
 
 window.addEventListener('DOMContentLoaded', (event) => {
 
@@ -31,14 +25,8 @@ let navbarList = document.querySelector("#navbar__list")
 
 /**
  * End Global Variables
- * Start Helper Functions
- * 
-*/
 
 
-
-/**
- * End Helper Functions
  * Begin Main Functions
  * 
 */
@@ -108,9 +96,6 @@ let navbarList = document.querySelector("#navbar__list")
 //build menu
 buildNav()
 
-// Scroll to section on link click
-// scrollToAnchor()
-
 // Set sections as active
 makeActive()
 
@@ -118,20 +103,3 @@ makeActive()
 });
 
 
-
-// Add class 'active' to section when near top of viewport
-
-
-// Scroll to anchor ID using scrollTO event
-
-
-/**
- * End Main Functions
- * Begin Events
- * 
-*/
-
-
-// Scroll to section on link click
-
-// Set sections as active
