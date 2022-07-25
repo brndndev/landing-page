@@ -1,5 +1,7 @@
 # Landing Page Project
 
+Final project from Udacity's front-end web developmet course.
+
 ## Table of Contents
 
 * [Usage](#usage)
