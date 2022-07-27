@@ -96,8 +96,6 @@ let navbarList = document.querySelector("#navbar__list")
 //build menu
 buildNav()
 
-// Set sections as active
-makeActive()
 
 
 });
