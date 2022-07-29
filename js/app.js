@@ -58,6 +58,17 @@ let navbarList = document.querySelector("#navbar__list")
         }
     }
 
+    // Scroll to anchor ID using scrollTO event
+    function scrollToAnchor(event){
+        //get the id of the slected anchor tag 
+        const elemID = event.target.parentElement.id
+
+        //find the section needed to scroll to and add scroll into view functionality to it with a behavior of smooth
+        document.querySelectorAll("section#" + elemID)[0].scrollIntoView({
+            //add smooth scrolling
+            behavior: 'smooth'
+        })
+    }
         // Add class 'active' to section when near top of viewport
     function addActiveClass(){
         window.addEventListener('scroll', (event) => {
@@ -79,19 +90,6 @@ let navbarList = document.querySelector("#navbar__list")
                 }
             }
         });
-    }
-
-    // Scroll to anchor ID using scrollTO event
-    function scrollToAnchor(event){
-        //get the id of the slected anchor tag 
-        const elemID = event.target.parentElement.id
-
-        //find the section needed to scroll to and add scroll into view functionality to it with a behavior of smooth
-        document.querySelectorAll("section#" + elemID)[0].scrollIntoView({
-            //add smooth scrolling
-            behavior: 'smooth'
-          })
-
     }
 
 /**
