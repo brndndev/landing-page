@@ -34,6 +34,7 @@ let navbarList = document.querySelector("#navbar__list")
  * 
 */
 
+//---------------------------------------------------------------------
     // build the nav
     function buildNav(){
         //loop through the number of sections, for each section  
@@ -58,6 +59,8 @@ let navbarList = document.querySelector("#navbar__list")
         }
     }
 
+    //---------------------------------------------------------------------
+
     // Scroll to anchor ID using scrollTO event
     function scrollToAnchor(event){
         //get the id of the slected anchor tag 
@@ -69,6 +72,9 @@ let navbarList = document.querySelector("#navbar__list")
             behavior: 'smooth'
         })
     }
+
+    //---------------------------------------------------------------------
+    
         // Add class 'active' to section when near top of viewport
     function addActiveClass(){
         window.addEventListener('scroll', (event) => {
